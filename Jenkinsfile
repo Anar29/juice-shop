@@ -16,7 +16,7 @@ pipeline {
         stage('Install Dependencies') {
             steps {
                 echo 'Installing Node.js dependencies...'
-                sh 'cd juice-shop && npm install'
+                sh 'npm install'
             }
         }
         stage('Deploy to Second Server') {
