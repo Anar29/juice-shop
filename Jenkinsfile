@@ -4,7 +4,7 @@ pipeline {
         SECOND_SERVER = '16.16.201.91'
         SSH_CREDENTIALS_ID = 'SECOND_SERVER_CREDENTIALS_ID'
         REPO_URL = 'https://github.com/Anar29/juice-shop.git'
-        BRANCH = 'main'
+        BRANCH = 'master'
     }
     stages {
         stage('Clone Repo') {
